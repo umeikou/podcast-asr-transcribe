@@ -1,0 +1,26 @@
+# API keys and local config
+.env
+*.key
+api_key
+
+# Audio
+*.mp3
+*.m4a
+*.wav
+*.aac
+*.flac
+*.ogg
+*.opus
+
+# Transcription outputs and episode metadata
+result*.json
+ep*.json
+*.meta.json
+*.srt
+podcast/
+output/
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
